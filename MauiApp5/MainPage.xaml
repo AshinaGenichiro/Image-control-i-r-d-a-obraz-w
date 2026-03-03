@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp5.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="200"
+                Aspect="AspectFit"/>
+
+            <Image>
+                <Image.Source>
+                    <UriImageSource Uri="https://content-hub.imgix.net/3DCl3TvYPXzbjcbdlqMras/a9fe7b8e89364ab1be02bd28b61683ac/Porsche_Cayenne_Turbo_GT_drives_through_city_streets_in_scene_from_Resident_Evil_Requiem_hero_desktop.jpg?w=2064"
+                    CacheValidity="10:00:00:00"/>
+                </Image.Source>
+            </Image>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
