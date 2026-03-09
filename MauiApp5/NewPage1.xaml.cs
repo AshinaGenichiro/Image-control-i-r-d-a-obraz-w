@@ -33,3 +33,14 @@ public partial class NewPage1 : ContentPage
     aspectLabel.Text = "Aktualny tryb wyświetlania to " + mainImage.Aspect.ToString();
     }
 }
+/* nazwa funkcji: changeMainImgAspect
+ * opis funkcji: funkcja zmienia wygląd aspectu obrazka mainImage, oraz zmienia test labela.
+ * 
+ * parametry funkcji:(object sender, EventArgs e) - standardowe parametry dla funkcji obsługującej zdarzenie kliknięcia
+ * 
+ * zwracany typ brak
+ * 
+ * 
+ * 
+ * 
+ */
